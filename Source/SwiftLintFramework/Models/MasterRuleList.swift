@@ -71,6 +71,7 @@ public let masterRuleList = RuleList(rules: [
     OperatorFunctionWhitespaceRule.self,
     OperatorUsageWhitespaceRule.self,
     OverriddenSuperCallRule.self,
+    PatternMatchingKeywordsRule.self,
     PrivateOutletRule.self,
     PrivateOverFilePrivateRule.self,
     PrivateUnitTestRule.self,
